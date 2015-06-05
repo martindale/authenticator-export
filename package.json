@@ -1,0 +1,25 @@
+{
+  "name": "authenticator-export",
+  "version": "0.0.0",
+  "description": "Export Google Authenticator data from the application database.  Capturing this file is left as an excercise to the reader, but @unusualbob has a [fantastic set of instructions for this][instructions].",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^1.2.0",
+    "qrcode": "^0.2.12",
+    "sqlite3": "^3.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martindale/authenticator-export.git"
+  },
+  "author": "Eric Martindale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martindale/authenticator-export/issues"
+  },
+  "homepage": "https://github.com/martindale/authenticator-export"
+}
